@@ -8,8 +8,8 @@ const port = 3000;
 const ig = new IgApiClient();
 bot = async () => {
     //instagram credentials
-    const igUsername = "presidenciaveisorg";
-    const igPassword = "fafa9944";
+    const igUsername = "";
+    const igPassword = "";
     //instagram session handling
     function saveSession(data) {
         fs.writeFileSync('./igSession.dat', JSON.stringify(data));
